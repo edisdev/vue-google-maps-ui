@@ -1,0 +1,57 @@
+{
+  "name": "vue-google-maps-ui",
+  "version": "1.0.0",
+  "private": false,
+  "main": "./lib/vuegooglemap.umd.js",
+  "license": "MIT",
+  "description": "A Google Map Component For Vue",
+  "keywords": [
+    "vue",
+    "vue-google-maps-ui",
+    "vue-google-maps",
+    "google-map",
+    "google-maps",
+    "googlemap",
+    "googlemaps",
+    "googlemap component"
+  ],
+  "homepage": "https://edisdev.github.io/vue-google-maps-ui/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edisdev/vue-google-maps-ui.git"
+  },
+  "scripts": {
+    "test:unit": "vue-cli-service test:unit -u",
+    "lint": "vue-cli-service lint",
+    "package": "vue-cli-service build NODE_ENV=production --target lib --name vuegooglemap --entry ./src/components/GoogleMap.vue --dest ./lib",
+    "docs:dev": "vuepress dev docs --host localhost",
+    "docs:build": "vuepress build docs",
+    "docs:serve": "vuepress serve docs"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "google-maps-loader-helper": "^1.0.0"
+  },
+  "peerDependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-unit-jest": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/eslint-config-standard": "^6.1.0",
+    "@vue/test-utils": "^2.0.0-0",
+    "@vue/vue3-jest": "^27.0.0-alpha.1",
+    "babel-jest": "^27.0.6",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "jest": "^27.0.5",
+    "vuepress": "2.0.0-beta.23"
+  }
+}
