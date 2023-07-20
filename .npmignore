@@ -1,0 +1,24 @@
+/resources
+/docs
+/public
+/.github
+/build
+
+/yarn.lock
+/package-lock.json
+yarn-error.log
+
+/lib/demo.html
+
+
+## config files
+.editorconfig
+vue.config.js
+babel.config.js
+jest.config.js
+jsconfig.json
+.eslintignore
+
+##tests
+/tests
+/coverage
