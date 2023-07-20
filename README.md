@@ -1,7 +1,3 @@
----
-title: 'Vue Google Map UI'
----
-
 ## 🗺 Vue Google Maps UI
 
 ### Install via npm
