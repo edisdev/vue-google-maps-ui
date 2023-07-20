@@ -106,7 +106,7 @@ This props to determine google map area style.
 
 <img src="examples/MapStyleOption.png"/>
 
-## loaderOptions
+## loaderOptions
 
 This props extra configrations for Google Map Loader
 
