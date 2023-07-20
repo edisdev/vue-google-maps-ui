@@ -95,6 +95,17 @@ This is Default markers areas for drawing manager.
 
 This props to determine google map area style.
 
+```vue
+<template>
+  <GoogleMap
+    api-key="xxxxxxx"
+    :map-style-option="{ borderRadius: '9px', border: '4px solid orange' }"
+  />
+</template>
+```
+
+<img src="examples/MapStyleOption.png"/>
+
 ## loaderOptions
 
 This props extra configrations for Google Map Loader
