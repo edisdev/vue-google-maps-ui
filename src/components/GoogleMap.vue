@@ -46,7 +46,8 @@ export default {
     mapStyleOption: { type: Object, default: () => ({}) },
     loaderOptions: { type: Object, default: () => ({}) },
     drawingManagerOptions: { type: Object, default: () => ({}) },
-    drawingControlOptions: { type: Object, default: () => ({}) }
+    drawingControlOptions: { type: Object, default: () => ({}) },
+    mapTypeId: { type: String, default: 'terrain' }
   },
   data () {
     return {
@@ -70,7 +71,8 @@ export default {
         libraries: ['places', 'drawing'],
         language: this.language,
         location: this.location,
-        loaderOptions: this.loaderOptions
+        loaderOptions: this.loaderOptions,
+        mapTypeId: this.mapTypeId
       })
     },
     autoCompleteOptions () {
